@@ -1,4 +1,6 @@
 {	"id": "https://runlaszlorun.github.io/bootdotmom/",
 	"name": "bootdotmom",
-	"publicMembers": "['https://github.com/RunLaszloRun']"
+	"publicMembers": "['https://github.com/RunLaszloRun']",
+	"theAnswer": "42",
+	"theQuestion": null
 }
