@@ -3,9 +3,10 @@
 <head>
   <title>Web Protocol Handler Sample - Register</title>
   <script type="text/javascript">
-    navigator.registerProtocolHandler("web+test",
-                                  "http://dot.mom",
-                                  "dot.mom test");
+    window.onload = (event) => {
+      navigator.registerProtocolHandler("web+test", "http://dot.mom", "dot.mom test");
+};
+    
   </script>
 </head>
 <body>
