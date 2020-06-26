@@ -39,6 +39,30 @@
       list-style-type: none;
       font-size: 28pt;
     }
+    
+    .styled {
+    border: 2;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+    color: #555346;
+    border-radius: 10px;
+    background-color: #DAD3C1;
+    margin: 0;
+  	position: absolute;
+  	left: 35%;
+}
+
+.styled:hover {
+    background-color: #555346;
+      color: #DAD3C1;
+}
+
+.styled:active {
+    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
+                inset 2px 2px 3px rgba(0, 0, 0, .6);
+}
   </style>
 </head>
 
@@ -72,6 +96,11 @@
 <p>Welcome to cyberspace. The real world is becoming a glorious clusterf***, so make sure to have fun!<p>
 <p>Sincerely,<br>
     bootdotmom and team
+ <br>
+  <button class="favorite styled"
+        type="button" onclick="alert('Some people say his brain was infected by devils...');">
+    Have you pushed the button?
+</button>
 </body>
 
 </html>
